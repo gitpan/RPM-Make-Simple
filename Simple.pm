@@ -8,7 +8,7 @@ use File::Copy;
 use File::Path;
 use Carp;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 # parameter => default
 # '' denotes mandatory parameter
@@ -40,6 +40,8 @@ sub new {
             $self->{$param} = $val;
         }
     }
+
+    $self->{requires} = [];
 
     return($self);
 }

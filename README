@@ -27,7 +27,8 @@ This module requires these other modules and libraries:
 
 Although most features will work with RPM::Make version 0.8, it is recommended
 that you use 0.9 as bits and pieces (such as post installation scripts) will
-not work.
+not work. This can be found here:
+    http://search.cpan.org/~steveha/RPM-Tools-0.9/
 
 COPYRIGHT AND LICENCE
 
